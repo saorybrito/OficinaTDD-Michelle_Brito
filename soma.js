@@ -1,5 +1,7 @@
-function soma() {
-  //seu código aqui
+function soma(a, b) {
+    return a + b;
 }
 
-module.exports = soma
+console.log(soma(8, 4));
+
+module.exports = soma;
